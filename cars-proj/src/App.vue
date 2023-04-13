@@ -3,17 +3,15 @@ import OnlyTest from './components/icons/OnlyTest.vue';
 export default {
   name:"app",
   components:{
-    OnlyTest
+  
   }
 }
 
 </script>
 
 <template>
-
-<div>
-  <h1>only test</h1>
-  <OnlyTest></OnlyTest>
-</div>
+  <div class="bg-gray-800">
+   <h1 class="text-red-700">ssds</h1>
+  </div>
 </template>
 
