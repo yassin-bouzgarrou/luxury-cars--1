@@ -19,7 +19,7 @@ CREATE TABLE IF NOT EXISTS `cars` (
   `model` VARCHAR(255) NOT NULL,
   `year` INT NOT NULL,
   `description` TEXT NOT NULL,
-  `price` DECIMAL(10,2) NOT NULL,
+  `price` INT(10,2) NOT NULL,
   `email-seller` VARCHAR(255) NOT NULL,
   `image_url` VARCHAR(255) NOT NULL,
   `Mileage` VARCHAR(45) NOT NULL,
